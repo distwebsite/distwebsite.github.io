@@ -1,0 +1,67 @@
+---
+layout: default
+title:  "İNDİR"
+description: "Pisi Linux İndirme Kalıpları."
+active: work
+---
+
+<div class='default-row work-row'>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-xs-12'>
+                <h1 class="title">
+                    {{ page.title }}
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class='default-row stripe-row'>
+    <div class='container'>
+        <div class='row'>
+        <ol class="breadcrumb">
+          <li><a href="{{site.baseurl}}/">Home</a></li>          
+          <li class="active">{{page.title}}</li>
+        </ol>
+        {% assign works = site.categories.work | sort: 'sequence' %}
+        {% for work in works %}            
+            <div class='col-md-4 col-sm-6 col-xs-12 animated'>
+                <div class='card card-white'>            
+                    <a class="card-image-link action" href="{{ work.url }}" aria-label="More info on {{work.title}}">
+                        <div class="card-image" style="background-image:url('{{site.baseurl}}/images/{{work.image}}')">                    
+                        </div>
+                    </a>
+                    <div class='content'>
+                        <h5>
+                            <a href='{{ work.url }}'>
+                                <strong> {{work.title}} </strong>
+                            </a>
+                        </h5>
+                        {{ work.description | truncate: 100 }}                
+                    </div>
+                    <div class="call-to-action">
+                        <a class='action' href="{{ work.url }}" aria-label="More info on {{work.title}}">
+                            <i class="fa fa-plus" aria-hidden="true"></i> Daha Fazlası                    
+                        </a><p>
+                    </p> 
+                                   
+                    </div>
+                    <div class='animated'>
+                    <p>
+                    
+                    </p>
+                    <p><li><a href="https://sourceforge.net/projects/pisilinux/files/2.0/Pisilinux2.0-Beta2-30-AUGUST-KDE5-UEFI-LIVE-x86_64.iso/download/">Pisi Linux 2.0-Beta2-30-AUGUST-KDE5</a></li>
+                    </p>
+                    <p>
+                    sha1sum: 56d036f23abdc4b7c5b048233b7bf81487776435
+                    </p>                             
+                    </div>                           
+                </div>
+            </div>        
+        {% endfor %}
+        </div> 
+    </div>    
+</div>
+
+{% include quote.html %}

@@ -1,0 +1,31 @@
+---
+layout: default
+active: work
+---
+
+<div class='default-row work-row'>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-xs-12'>
+                <h1 class="title">
+                    {{ page.title }}
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class='default-row stripe-row'>
+    <div class='container'>               
+        <div class='row'>            
+            <ol class="breadcrumb">
+              <li><a href="{{site.baseurl}}/">ANA SAYFA</a></li>
+              <li><a href="{{site.baseurl}}/work.html">İNDİR</a></li>
+              <li class="active">{{page.title}}</li>
+            </ol>
+            {{content}}
+        </div>
+    </div>
+</div>
+
+{% include quote.html %}

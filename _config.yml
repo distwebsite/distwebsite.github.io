@@ -3,18 +3,24 @@ title: PİSİ LİNUX
 name: PİSİ LİNUX
 email: admin@pisilinux.org
 address: Türkiye
-description: > # this means to ignore newlines until "baseurl:"
+description:
   Pisi Linux; Pisi tabanlı son Pardus sürümünü temel alan, özgür yazılım topluluğu tarafından geliştirilen, bilgisayar kulanıcılarına kurulum, yapılandırma ve kullanım konusunda kolaylık sağlamaya çalışan, onların temel masaüstü gereksinimlerini karşılamayı amaçlayan, son kullanıcı odaklı bir GNU/Linux dağıtımıdır.
+  
+encoding: UTF-8
+languages: ['en', 'tr']
+language_default: 'tr'
 baseurl: ""
-url: "http://www.pisilinux.org"
+url: ""
 facebook_address: https://www.facebook.com/pisilinux
 twitter_address: https://twitter.com/pisilinux
 github_address: https://github.com/pisilinux
 google_address: https://plus.google.com/communities/113565681602860915332
 gems: [jekyll-seo-tag]
+
 collections:
   services:
     output: true
-    
+
+
 # Build settings
 markdown: kramdown

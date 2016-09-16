@@ -11,6 +11,10 @@ languages: ['en', 'tr']
 language_default: 'tr'
 baseurl: ""
 url: ""
+slack_address: http://pisi.slack.com
+forum_address: http://forum.pisilinux.org
+bugs_address: http://bugs.pisilinux.org
+wiki_address: http://wiki.pisilinux.org
 facebook_address: https://www.facebook.com/pisilinux
 twitter_address: https://twitter.com/pisilinux
 github_address: https://github.com/pisilinux

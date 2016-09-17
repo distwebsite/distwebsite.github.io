@@ -174,9 +174,9 @@ encoding: utf-8
                             {{ service.description }}
                         </div> 
                         <div class='call-to-action'>
-                            <a class='action' href="{{service.url}}" aria-label="More info on {{service.title}}">
+                            <!--<a class='action' href="{{service.url}}" aria-label="More info on {{service.title}}">
                                 <i class="fa fa-plus" aria-hidden="true"></i> Daha Fazlası
-                            </a>
+                            </a>-->
                         </div>                    
                     </div>
                 </div>                
@@ -186,13 +186,13 @@ encoding: utf-8
 	</div>
 </div>
 
-<div class='white-row default-row'>
+<!--<div class='white-row default-row'>-->
 	<div class='container'>
 		<div class='row'>
 			<div class='col-xs-12'>
-				<h2 class='title'>
+				<!--<h2 class='title'>
 					Öne Çıkanlar
-				</h2>
+				</h2>-->
 			</div>
             {% assign works = site.categories.work | sort: 'sequence' | limit: 3 %}
             {% for work in works %}                
@@ -208,12 +208,12 @@ encoding: utf-8
                                     <strong> {{work.title}} </strong>
                                 </a>
                             </h5>
-                            {{ work.description | truncate: 100 }}
+                            {{ work.description | truncate: 300 }}
                         </div>
                         <div class="call-to-action">
-                            <a class='action' href="{{ work.url }}" aria-label="More info on {{work.title}}">
+                            <!--<a class='action' href="{{ work.url }}" aria-label="More info on {{work.title}}">
                                 <i class="fa fa-plus" aria-hidden="true"></i> Daha Fazlası
-                            </a>
+                            </a>-->
                         </div>            
                     </div>
                 </div>                

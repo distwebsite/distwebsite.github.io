@@ -32,13 +32,8 @@ active: services
                             </strong>                                    
                         </a>
                     </h5>
-                    {{service.description | truncate: 100}}
-                </div> 
-                <div class='call-to-action'>
-                    <a class='action' href="{{service.url}}">
-                        <i class="fa fa-plus" aria-hidden="true"></i> Daha Fazlası
-                    </a>
-                </div>                    
+                    {{service.description | truncate: 300}}
+                </div>              
             </div>
         </div>
         {% endif %}

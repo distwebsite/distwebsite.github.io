@@ -18,7 +18,7 @@ active: services
     <div class='form-group'>
         <p>        
 			Pisi (Açılımı: Packages Installed Successfully as Intended), Python dilinde yazılmış bir paket yönetim sistemidir. Bağımlılıklara bakarak paket oluşturma, kurma, kaldırma, yükseltme ve benzeri işlevleri yerine getirir. XML ile tanımlanmış ve oluşturma süreci bir Python betiği ile verilmiş kaynak paketlerden ikili paketler oluşturur ve bunları bağımlılıklarına bakarak kurup kaldırabilir. Kullanıcı dostu bir çizgelik arayüz ve kapsamlı bir komut yatacı arayüzü içerir.
-			<h3 class='sub-title'>KUŞBAKIŞI PİSİ KOMUT SATIRI</h3>
+			<h5 class='sub-title'>KUŞBAKIŞI PİSİ KOMUT SATIRI</h5>
 			
             <p>SVN tarzı komut satırı işlemcisi 29 komut içerir. Aşağıda komut çeşitlerine göre bir ayrım verilmiştir.</p>
 
@@ -32,7 +32,7 @@ active: services
 
             <p>Yardımcı komutlar: rebuild-db, clean, delete-cache</p>
 
-            <h3 class='sub-title'>GRAFİKSEL ARAYÜZ</h3>
+            <h5 class='sub-title'>GRAFİKSEL ARAYÜZ</h5>
             
             <p>Paket Yöneticisi'nde seçilen programlar yüklenirken
             Qt tabanlı arayüze sahiptir. Sadece Pisi Linux kullanmaktadır . SolusOS, GTK tabanlı bir paket yöneticisi geliştirmektedir, henüz tamamlanmamıştır Kullanımının mümkün olduğu kadar basitleştirildiği düşünülen bir arayüzdür. </p>
@@ -44,9 +44,9 @@ active: services
 
 <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 service-content'>    
     <div class='form-group'>
-        <h3 class='sub-title'>
+        <h5 class='sub-title'>
             ÖZELLİKLERİ
-        </h3>
+        </h5>
         <p>
         </p>
 		<ul class='list-unstyled list-primary'>

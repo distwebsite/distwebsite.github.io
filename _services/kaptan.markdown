@@ -28,9 +28,9 @@ active: services
 
 <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 service-content'>
     <div class='form-group'>
-        <h3 class='sub-title'>
+        <h5 class='sub-title'>
             ÖZELLİKLERİ
-        </h3>
+        </h5>
         <p>
             Kaptan, Pisi Linux kurulumu sonrasında ilk açılışta kullanıcıyı masaüstünde karşılayan ve daha sonra masaüstünü kişiselleştirmek için kullanabilen bir ayar sihirbazıdır. Kaptan, Pisi Linux hakkında genel bilgiler verirken kullanıcının masaüstünü daha rahat kullanabilmesi için ağ bağlantıları gibi belli başlı yapılandırma seçeneklerini sunar ve aynı zamanda kullanıcının masaüstünü şahsîleştirmesine de yardımcı olur.
         </p>

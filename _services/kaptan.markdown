@@ -1,6 +1,6 @@
 ---
 layout: service
-title:  "Kaptan Masaüstü Ayar Yöneticisi"
+title:  "Kaptan"
 lang: tr
 encoding: utf-8
 icon: "icofont icofont-architecture-alt"
@@ -16,9 +16,6 @@ active: services
 
 <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
     <div class='form-group'>
-        <h3 class='sub-title'>
-            {{page.title}}
-        </h3>
         <p>        
         Pardus ilk çalıştırıldığında Kaptan kullanıcıyı karşılayarak masaüstü ortamını kişiselleştirmek için seçenekler sunan bir sihirbazdır.</p>
 

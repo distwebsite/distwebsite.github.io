@@ -1,6 +1,6 @@
 ---
 layout: service
-title:  "ÇOMAR Sistem Yapılandırma Yöneticisi"
+title:  "ÇOMAR"
 lang: tr
 encoding: utf-8
 icon: "icofont icofont-architecture-alt"
@@ -15,9 +15,6 @@ active: services
 </div>
 <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
     <div class='form-group'>
-        <h3 class='sub-title'>
-            {{page.title}}
-        </h3>
         <p>
         ÇOMAR (Açılımı: COnfiguration MAnageR), dizgenin düzgün çalışması için gerekli olan donanım, açılış, ağ, kullanıcı, zaman, görüntü gibi ayarların mümkün olduğu kadar kendiliğinden yapılmasını sağlayan, kullanıcılara bir yetki denetiminde bu ayarları bayağı ve anlaşılır bir biçimde değiştirme olanağı sağlayan bir yazılımdır.
         <h3><p>Giriş</p></h3>

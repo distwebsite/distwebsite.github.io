@@ -5,7 +5,7 @@ lang: tr
 encoding: utf-8
 icon: "icofont icofont-architecture-alt"
 sequence: 1
-description: "Kurulum işlemi 30 dakikadır ve grafiksel ekran sayesinde kurulumu kolaylıkla yapabilirsiniz."
+description: "Hoşgeldin uygulaması ile sizi karşılar, kişisel ayarlarınızı kolaylıkla yapmanıza sağlar."
 image: "/images/5.re-4.jpg"
 active: services
 ---

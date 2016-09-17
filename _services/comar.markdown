@@ -5,7 +5,7 @@ lang: tr
 encoding: utf-8
 icon: "icofont icofont-architecture-alt"
 sequence: 3
-description: "Gerektiğinde donanım, açılış, ağ, kullanıcı, zaman, görüntü gibi ayarların mümkün olduğuca kendiliğinden yapılmasını sağlar"
+description: "ÇOMAR; gerektiğinde donanım, açılış, ağ, kullanıcı, zaman, görüntü gibi ayarların mümkün olduğuca kendiliğinden yapılmasını sağlar"
 image: "/images/5.re.jpg"
 active: services
 ---

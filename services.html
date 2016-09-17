@@ -39,12 +39,12 @@ active: services
                     <div class='content'>
                         <h5>
                             <a class='action' href="{{service.url}}">
-                                <strong>
+                                <!--<strong>
                                     {{service.title}}
-                                </strong>
+                                </strong>-->
                             </a>
                         </h5>
-                        {{service.description | truncate: 100}}
+                        {{service.description | truncate: 300}}
                     </div>
                     <!--<div class='call-to-action'>
                         <a class='action' href="{{service.url}}" aria-label="More info on {{service.title}}">

@@ -5,7 +5,7 @@ lang: tr
 encoding: utf-8
 icon: "icofont icofont-architecture-alt"
 sequence: 1
-description: "Hoşgeldin uygulaması ile sizi karşılar, kişisel ayarlarınızı kolaylıkla yapmanıza sağlar."
+description: "Kaptan; Hoşgeldin uygulaması ile sizi karşılar, kişisel ayarlarınızı kolaylıkla yapmanıza olanak sağlar."
 image: "/images/5.re-4.jpg"
 active: services
 ---

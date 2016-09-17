@@ -1,12 +1,12 @@
 ---
 layout: service
-title:  ""
+title:  "Pisi Ailesi"
 lang: tr
 encoding: utf-8
 date:   2016-08-04 22:15:04
 category: service
 sequence: 0
-description: "Tüm Pisi Ailesi"
+description: "Pisi Ailesi"
 image: 5.re.jpg
 active: services
 ---
@@ -15,8 +15,7 @@ active: services
     {% assign services = site.categories.service | sort: 'sequence' %}
     {% for service in services %}
         {% if service.sequence != 0 %}
-        <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
-            <div id='{{service.title | replace: ' '}}' class='card card-white service-card'>                
+        <div class='col-lg-4 col-md-6 col-sm-6 col-xs-12'>               
                 {%assign imagePath = service.image | prepend: "/images/" | prepend:site.baseurl %}
                 <a class='card-image-link action' href="{{service.url}}">
                     <div class='card-image' style="background-image:url('{{imagePath}}')">

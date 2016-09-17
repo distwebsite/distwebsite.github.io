@@ -6,7 +6,7 @@ encoding: utf-8
 date:   2016-08-30 22:15:04
 category: work
 sequence: 1
-description: ""
+description: "Pisi Linux 2.0 Beta 2 Çıktı!"
 image: pisilinux-2.png
 active: work
 ---

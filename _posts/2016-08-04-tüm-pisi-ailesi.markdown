@@ -1,6 +1,6 @@
 ---
 layout: service
-title:  "Tüm Pisi Ailesi"
+title:  ""
 lang: tr
 encoding: utf-8
 date:   2016-08-04 22:15:04

@@ -1,6 +1,6 @@
 ---
 layout: work
-title:  "PiSi Linux 2.0 Beta 2 Çıktı!"
+title:  "Pisi Linux 2.0 Beta 2 Çıktı!"
 lang: tr
 encoding: utf-8
 date:   2016-08-30 22:15:04

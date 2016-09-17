@@ -1,11 +1,11 @@
 ---
 layout: service
-title:  "PiSi"
+title:  "PiSi Paket Yöneticisi"
 lang: tr
 encoding: utf-8
 icon: "icofont icofont-architecture-alt"
 sequence: 2
-description: "Paket Yöneticisi"
+description: "Mevcut paketlerin en son kararlı sürümlerini bulundurur. Kurulumdan sonra ofis yazılımı, İnternet gezgini gibi gerekli bütün programlar yüklenir."
 image: "/images/Pisi-re-3.png"
 active: services
 ---

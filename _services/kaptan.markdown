@@ -1,11 +1,11 @@
 ---
 layout: service
-title:  "Kaptan"
+title:  "Kaptan Masaüstü Ayar Yöneticisi"
 lang: tr
 encoding: utf-8
 icon: "icofont icofont-architecture-alt"
 sequence: 1
-description: "Masaüstü Ayar Yöneticisi"
+description: "Kurulum işlemi 30 dakikadır ve grafiksel ekran sayesinde kurulumu kolaylıkla yapabilirsiniz."
 image: "/images/5.re-4.jpg"
 active: services
 ---

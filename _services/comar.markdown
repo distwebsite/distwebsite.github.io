@@ -1,11 +1,11 @@
 ---
 layout: service
-title:  "ÇOMAR"
+title:  "ÇOMAR Sistem Yapılandırma Yöneticisi"
 lang: tr
 encoding: utf-8
 icon: "icofont icofont-architecture-alt"
 sequence: 3
-description: "Sistem Yapılandırma Yöneticisi"
+description: "Gerektiğinde donanım, açılış, ağ, kullanıcı, zaman, görüntü gibi ayarların mümkün olduğuca kendiliğinden yapılmasını sağlar"
 image: "/images/5.re.jpg"
 active: services
 ---

@@ -5,7 +5,7 @@ lang: tr
 encoding: utf-8
 icon: "icofont icofont-architecture-alt"
 sequence: 2
-description: "PiSi; Mevcut paketlerin en son kararlı sürümlerini ile kurulumdan sonra ofis yazılımı, İnternet gezgini gibi gerekli bütün programları yüklersiniz."
+description: "PiSi; Mevcut paketlerin en son kararlı sürümleri ile kurulumdan sonra ofis yazılımı, İnternet gezgini gibi gerekli tüm programları sağlar."
 image: "/images/Pisi-re-3.png"
 active: services
 ---

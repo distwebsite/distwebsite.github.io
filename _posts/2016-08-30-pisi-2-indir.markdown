@@ -7,7 +7,7 @@ date:   2016-08-30 22:15:04
 category: work
 sequence: 1
 description: ""
-image: 1280x800.png
+image: pisilinux-2.png
 active: work
 ---
 

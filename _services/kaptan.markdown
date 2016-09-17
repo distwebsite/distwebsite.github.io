@@ -3,15 +3,15 @@ layout: service
 title:  "Kaptan"
 lang: tr
 encoding: utf-8
-icon: "icofont icofont-tools-alt-2"
-sequence: 3
+icon: "icofont icofont-architecture-alt"
+sequence: 1
 description: "Masaüstü Ayar Yöneticisi"
-image: "/images/12.re.png"
+image: "/images/5.re-4.jpg"
 active: services
 ---
 
-<div class='col-xs-12'>    
-    <img class='img-responsive service-image img-border' src='{{ page.image }}' />
+<div class='col-xs-12'>
+    <img class='img-border' src="{{ '/images/kaptan-logo.png' }}" />
 </div>
 
 <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
@@ -43,6 +43,9 @@ active: services
             </li>          
 		</ul>
     </div>
+</div>
+<div class='col-xs-12'>
+    <img class='img-border' src='{{ page.image }}' />
 </div>
 
 <div class='clearfix'></div>

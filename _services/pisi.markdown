@@ -4,14 +4,14 @@ title:  "PiSi"
 lang: tr
 encoding: utf-8
 icon: "icofont icofont-architecture-alt"
-sequence: 1
+sequence: 2
 description: "Paket Yöneticisi"
-image: "/images/8.re1.png"
+image: "/images/Pisi-re-3.png"
 active: services
 ---
 
-<div class='col-xs-12'>    
-    <img class='img-responsive service-image img-border' src='{{ page.image }}' />
+<div class='col-xs-12'>
+    <img class='img-border' src="{{ '/images/Pisi-logo.png' }}" />
 </div>
 
 <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
@@ -71,7 +71,7 @@ active: services
 		</ul>
     </div>
 </div>
-<div class='col-xs-12'>    
-    <img class='img-responsive service-image img-border' src="{{ '/images/9.re.png' }}" />
+<div class='col-xs-12'>
+    <img class='img-border' src="{{ '/images/Pisi_Paket-1.png' }}" />
 </div>
 <div class='clearfix'></div>

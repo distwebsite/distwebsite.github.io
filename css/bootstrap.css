@@ -15,7 +15,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'Exo', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -213,7 +213,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
   color: #333333;
@@ -660,7 +660,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Exo", monospace;
 }
 code {
   padding: 2px 4px;
@@ -1726,7 +1726,7 @@ textarea.form-control {
 input[type="search"] {
   -webkit-appearance: none;
 }
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
+@media screen and {-webkit-min-device-pixel-ratio: 0;
   input[type="date"].form-control,
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
@@ -4490,7 +4490,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Exo", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4608,7 +4608,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Exo", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;

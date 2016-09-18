@@ -10,7 +10,7 @@ encoding: UTF-8
 languages: ['en', 'tr']
 language_default: 'tr'
 baseurl: ""
-url: ""
+url: "http:/distwebsite.github.io"
 slack_address: http://pisi.slack.com
 forum_address: http://forum.pisilinux.org
 bugs_address: http://bugs.pisilinux.org

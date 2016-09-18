@@ -264,7 +264,7 @@
 }
 
 @-webkit-keyframes icofont-rotate {
-    0% {
+    
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
@@ -275,7 +275,7 @@
 }
 
 @keyframes icofont-rotate {
-    0% {
+       
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }

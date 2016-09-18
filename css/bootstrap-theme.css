@@ -435,13 +435,11 @@ fieldset[disabled] .btn-danger.active {
 	margin-bottom:40px;
     font-weight: bold;
     padding-bottom:10px;
-    text-transform: uppercase;
 }
 .sub-title
 {
     display: inline-block;
     font-weight: bold;
-    text-transform: uppercase;
 }
 .sub-title::after
 {
@@ -655,7 +653,6 @@ fieldset[disabled] .btn-danger.active {
     font-weight: bold;
     line-height: 30px;
     display:block;
-    text-transform: uppercase;
 }
 .logo .logo-lower
 {
@@ -845,7 +842,6 @@ fieldset[disabled] .btn-danger.active {
 	border-bottom:2px solid transparent;
 	color:#222;
     display:inline-block;
-    text-transform: uppercase;
 	
 	-webkit-transition: border-color 0.5s; /* Safari */
     transition: border-color 0.5s;
@@ -872,7 +868,6 @@ fieldset[disabled] .btn-danger.active {
 {
     font-size: 40px;
     font-weight: bold;
-	text-transform: uppercase;
 }
 .slogan-holder p
 {

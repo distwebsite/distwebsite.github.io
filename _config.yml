@@ -1,7 +1,7 @@
 # Site settings
 title: Pisi Linux
 name: Pisi Linux
-email: admin@pisilinux.org
+email: dist.mailto@yandex.com
 address: Türkiye
 description:
   Pisi Linux; Pisi tabanlı son Pardus sürümünü temel alan, özgür yazılım topluluğu tarafından geliştirilen, bilgisayar kulanıcılarına kurulum, yapılandırma ve kullanım konusunda kolaylık sağlamaya çalışan, onların temel masaüstü gereksinimlerini karşılamayı amaçlayan, son kullanıcı odaklı bir GNU/Linux dağıtımıdır.
@@ -9,8 +9,8 @@ description:
 encoding: UTF-8
 languages: ['en', 'tr']
 language_default: 'tr'
-baseurl: ""
-url: "http:/distwebsite.github.io"
+baseurl: 
+url: 
 slack_address: http://pisi.slack.com
 forum_address: http://forum.pisilinux.org
 bugs_address: http://bugs.pisilinux.org

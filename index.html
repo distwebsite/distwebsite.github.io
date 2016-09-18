@@ -204,12 +204,12 @@ encoding: utf-8
                         </a>
                         <div class='content'>
                             <h5>
-                                <a href='{{ work.url }}' aria-label="More info on {{work.title}}">
+                                <!--<a href='{{ work.url }}' aria-label="More info on {{work.title}}">
                                     {{work.title}}
-                                    <!--<strong> {{work.title}} </strong>-->
-                                </a>
+                                    <strong> {{work.title}} </strong>
+                                </a>-->
                             </h5>
-                            {{ work.description | truncate: 200 }}
+                            {{ work.description | truncate: 400 }}
                         </div>
                         <div class="call-to-action">
                             <!--<a class='action' href="{{ work.url }}" aria-label="More info on {{work.title}}">

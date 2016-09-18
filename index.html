@@ -74,7 +74,7 @@ encoding: utf-8
                                 </h1>-->
                             <div class='form-group'>
                                 <p>
-                                    Bir Rüya, Bir Hayal
+                                    Biraz Rüya, Biraz Hayal
                                 </p>
                             </div>
                             <div class='form-group'>
@@ -144,13 +144,13 @@ encoding: utf-8
 
 <div class='stripe-row default-row'>
 	<div class='container'>
-		<div class='row'>
+		<!--<div class='row'>
 			<div class='col-xs-12'>
 				<h2 class='title'>
-					<!--PiSi Ailesi??-->
+					PiSi Ailesi??
 				</h2>
 			</div>
-		</div>
+		</div>-->
         <div class='row'>       
             {%assign services = site.services | sort: 'sequence'%}
             {% for service in services%}                
@@ -189,11 +189,11 @@ encoding: utf-8
 <!--<div class='white-row default-row'>-->
 	<div class='container'>
 		<div class='row'>
-			<div class='col-xs-12'>
-				<!--<h2 class='title'>
+			<!--<div class='col-xs-12'>
+				<h2 class='title'>
 					Öne Çıkanlar
-				</h2>-->
-			</div>
+				</h2>
+			</div>-->
             {% assign works = site.categories.work | sort: 'sequence' | limit: 3 %}
             {% for work in works %}                
                 <div class='col-md-4 col-sm-6 col-xs-12 animated'>
@@ -203,19 +203,19 @@ encoding: utf-8
                             </div>
                         </a>
                         <div class='content'>
-                            <h5>
-                                <!--<a href='{{ work.url }}' aria-label="More info on {{work.title}}">
+                            <!--<h5>
+                                <a href='{{ work.url }}' aria-label="More info on {{work.title}}">
                                     {{work.title}}
                                     <strong> {{work.title}} </strong>
-                                </a>-->
-                            </h5>
+                                </a>
+                            </h5>-->
                             {{ work.description | truncate: 400 }}
                         </div>
-                        <div class="call-to-action">
-                            <!--<a class='action' href="{{ work.url }}" aria-label="More info on {{work.title}}">
+                        <!--<div class="call-to-action">
+                            <a class='action' href="{{ work.url }}" aria-label="More info on {{work.title}}">
                                 <i class="fa fa-plus" aria-hidden="true"></i> Daha Fazlası
-                            </a>-->
-                        </div>            
+                            </a>
+                        </div>-->            
                     </div>
                 </div>                
             {% endfor %}

@@ -30,16 +30,17 @@ encoding: utf-8
         {% assign works = site.categories.work | sort: 'sequence' %}
         {% for work in works %}            
             <div class='col-md-4 col-sm-6 col-xs-12 animated'>
-                <div class='card card-white'>            
-                        <div class="card-image" style="background-image:url('{{site.baseurl}}/images/{{work.image}}')">                    
-                        </div>
-                    </a>
+                <div class='card card-white'>                      
+                        <a class="card-image-link action" href="{{ work.url }}" aria-label="More info on {{work.title}}">
+                            <div class="card-image" style="background-image:url('{{site.baseurl}}/images/{{work.image}}')">
+                            </div>
+                        </a>
                     <div class='content'>
-                        <h5>
+                        <!--<h5>
                             <a href='{{ work.url }}'>
                                 <strong> {{work.title}} </strong>
                             </a>
-                        </h5>
+                        </h5>-->
                         {{ work.description | truncate: 300 }}                
                     </div>
                      <!--<div class="call-to-action">

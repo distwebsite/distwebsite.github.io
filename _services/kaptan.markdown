@@ -6,7 +6,7 @@ encoding: utf-8
 icon: "icofont icofont-architecture-alt"
 sequence: 1
 description: "Kaptan; hoşgeldin uygulaması ile sizi karşılar, kişisel ayarlarınızı kolaylıkla yapmanıza olanak tanır."
-image: "/images/5.re-4.jpg"
+image: "/images/kaptan2.png"
 active: services
 ---
 

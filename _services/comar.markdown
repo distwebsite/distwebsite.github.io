@@ -6,7 +6,7 @@ encoding: utf-8
 icon: "icofont icofont-architecture-alt"
 sequence: 3
 description: "ÇOMAR; gerektiğinde donanım, açılış, ağ, kullanıcı, zaman, görüntü gibi ayarların mümkün olduğunca kendiliğinden yapılmasını sağlar"
-image: "/images/5.re.jpg"
+image: "/images/comar-logo2.png"
 active: services
 ---
 

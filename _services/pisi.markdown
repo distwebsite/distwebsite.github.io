@@ -6,7 +6,7 @@ encoding: utf-8
 icon: "icofont icofont-architecture-alt"
 sequence: 2
 description: "PiSi; Mevcut paketlerin en son kararlı sürümlerini kurulumdan sonra ofis yazılımı, İnternet gezgini gibi gerekli tüm programları sağlar."
-image: "/images/pisi-re5.png"
+image: "/images/Pisi2.png"
 active: services
 ---
 

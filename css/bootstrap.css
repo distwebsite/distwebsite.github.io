@@ -1726,7 +1726,7 @@ textarea.form-control {
 input[type="search"] {
   -webkit-appearance: none;
 }
-@media screen and {-webkit-min-device-pixel-ratio: 0;
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="date"].form-control,
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
@@ -3978,7 +3978,7 @@ a.badge:focus {
 }
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 200;
 }
 .jumbotron > hr {
@@ -4005,7 +4005,7 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 14px;
+    font-size: 72px;
   }
 }
 .thumbnail {

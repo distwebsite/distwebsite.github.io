@@ -4490,7 +4490,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Exo", Helvetica, Arial, sans-serif;
+  font-family: "Exo", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4608,7 +4608,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Exo", Helvetica, Arial, sans-serif;
+  font-family: "Exo", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;

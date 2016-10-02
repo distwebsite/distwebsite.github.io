@@ -1,0 +1,59 @@
+---
+layout: default
+active: gallery
+title: "Gallery"
+description: "Pisi Linux Gallery"
+ref: "Gallery"
+lang: en
+encoding: utf-8
+images:
+    - title: "Pisi Linux 2.0 Beta 2"
+      path: "/images/EG/11.png"
+      path_lg: "/images/EG/11.png"
+---
+<!--
+<div class='default-row gallery-row'>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-xs-12'>
+                <h1 class='title'>
+                    {{ page.title }}
+                </h1>                
+            </div>
+        </div>
+    </div>        
+</div>
+-->
+<div class='default-row stripe-row'>
+    <div class='container'>        
+        <div class='row'>
+            <ol class="breadcrumb">
+              <li><a href="{{site.baseurl}}/">Home</a></li>              
+              <li class="active">{{page.title}}</li>
+            </ol>
+        </div>
+        <div class='row'>
+            <div id='masonry'>
+                {% for image in page.images %}
+                
+                <div class='col-md-4 col-sm-6 col-xs-12 grid-item'>
+                    <div class='gallery-image'>
+                        <a href='{{ image.path_lg }}' data-lightbox='{{ image.path_lg }}'>
+                        <img src='{{ image.path }}' alt='{{ image.title }}' class='img-responsive' />
+                        <div class='image-description'>
+                            <strong>
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                                {{ image.title }}
+                            </strong>
+                        </div>     
+                        </a>
+                    </div>
+                </div>       
+                {% endfor %}
+            </div>
+            <div class='clearfix'></div>
+        </div>
+    </div>
+</div>
+
+{% include quote.html %}

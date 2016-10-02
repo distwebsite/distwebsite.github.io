@@ -6,6 +6,8 @@ encoding: utf-8
 date:   2016-08-30 22:15:04
 category: work
 sequence: 1
+image: Pisi_linux_20.jpg
+active: work
 description: "
             <p></p>
             <p>Pisi Linux 2.0 Beta 2 Çıktı!</p>
@@ -14,8 +16,6 @@ description: "
             Pisi Linux 2.0-Beta2-30-AUGUST !
         
 "
-image: pisilinux-2.png
-active: work
 ---
 
 <div class='col-md-9 col-sm-12'>

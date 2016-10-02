@@ -1,3 +1,5 @@
+{% if page.lang == "tr" %}
+
 <div class='quote-row'>
 	<div class='container'>
 		<div class='row'>
@@ -15,3 +17,25 @@
 		</div>
 	</div>
 </div>
+
+{% else %}
+
+<div class='quote-row'>
+	<div class='container'>
+		<div class='row'>
+			<div class='col-lg-10 col-md-10 col-sm-12 col-xs-12'>
+				<h4 class='animated'>
+                    Ask your Questions About Pisi Linux.			
+                </h4>
+			</div>
+            <div class='col-lg-2 col-md-2 col-sm-12 col-xs-12'>
+                <a href="{{ site.baseurl}}/contact.html" class='btn btn-quote btn-lo pull-right' tabindex="-1">
+                    Write Your Message
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+		</div>
+	</div>
+</div>
+
+{% endif %}

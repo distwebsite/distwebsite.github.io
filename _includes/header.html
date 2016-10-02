@@ -1,5 +1,7 @@
-<html lang="tr">
+<!--html lang="tr"-->
 <meta charset="utf-8">
+
+{% if page.lang == "tr" %}
 <div class='menu-row' data-spy="affix" data-offset-top="50">
 	<nav class="navbar navbar-default">
 		<div class="container">
@@ -53,8 +55,122 @@
 					İletişim
 				</a>
 			</li>
+			<li>
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Language
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li>
+                  <a href='{{ site.baseurl }}/index_en.html' class='{% if page.active == "English" %} active {% endif %}'><img src="images/british-flag.jpg">
+					English
+                  </a>
+                  </li>
+                  <li>
+                  <a href='{{ site.baseurl }}/index.html' class='{% if page.active == "Turkish" %} active {% endif %}'><img src="images/turkish-flag.jpg">
+					Turkish
+                  </a>
+                  </li>
+                  <li>
+                  <a href='{{ site.baseurl }}/index_en.html' class='{% if page.active == "Русский" %} active {% endif %}'><img src="images/russian-flag.jpg">
+					Русский
+                  </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
 		  </ul>
 		</div><!-- /.navbar-collapse -->
 		</div><!-- /.container -->
 	</nav>
 </div>
+
+{% else %}
+
+
+<div class='menu-row' data-spy="affix" data-offset-top="50">
+	<nav class="navbar navbar-default">
+		<div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand logo" href="{{ site.baseurl }}/">
+                <img src="{{site.baseurl}}/images/logo.png" alt="PiSi Linux Logo" class='logo-image' />
+                <span class='logo'>
+                    <span class='logo-upper'>
+                        {{site.name}}
+                    </span>
+                    <span class='logo-lower'>
+                        Freedom Now!
+                    </span>
+                </span>
+                
+            </a>
+        </div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav navbar-right">
+			<li>
+				
+				<a href="{{ site.baseurl }}/" class='{% if page.active == "home" %} active {% endif %}'>
+					Home
+				</a>
+		  	</li>
+			<li>
+				<a href="{{ site.baseurl }}/services_en.html" class='{% if page.active == "services" %} active {% endif %}'>
+					PiSi Family
+				</a>
+			</li>
+		  	<li>
+				<a href="{{ site.baseurl }}/work_en.html" class='{% if page.active == "work" %} active {% endif %}'>
+					Download
+				</a>
+		  	</li>            
+			<li>
+				<a href="{{ site.baseurl }}/gallery_en.html" class='{% if page.active == "gallery" %} active {% endif %}'>
+					Gallery
+				</a>
+		  	</li>
+			<li>
+			  	<a href='{{ site.baseurl }}/about_en.html' class='{% if page.active == "about" %} active {% endif %}'>
+					About
+				</a>
+			</li>
+			<li>
+				<a href='{{ site.baseurl }}/contact_en.html' class='{% if page.active == "contact" %} active {% endif %}'>
+					Contact
+				</a>
+			</li>
+			<li>
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Language
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li>
+                  <a href='{{ site.baseurl }}/index_en.html' class='{% if page.active == "English" %} active {% endif %}'><img src="images/british-flag.jpg">
+					English
+                  </a>
+                  </li>
+                  <li>
+                  <a href='{{ site.baseurl }}/index.html' class='{% if page.active == "Turkish" %} active {% endif %}'><img src="images/turkish-flag.jpg">
+					Turkish
+                  </a>
+                  </li>
+                  <li>
+                  <a href='{{ site.baseurl }}/index_en.html' class='{% if page.active == "Русский" %} active {% endif %}'><img src="images/russian-flag.jpg">
+					Русский
+                  </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+		</div><!-- /.container -->
+	</nav>
+</div>
+
+{% endif %}
